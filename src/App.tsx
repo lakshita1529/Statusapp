@@ -6,8 +6,8 @@ import NewNote from './pages/Newnote';
 import { useLocalStorage } from './store/useLocalStorage';
 import { v4 as uuidV4 } from 'uuid';
 import { Container } from 'react-bootstrap';
-import { NoteList } from './views/NoteList';
-import { NoteLayout } from './component/shared/navbar/NoteLayout';
+import { NoteList } from './views/NoteList/index';
+import { NoteLayout } from './component/shared/navbar/index';
 import { Note } from './pages/Note';
 import EditNote from './pages/EditNote';
 
